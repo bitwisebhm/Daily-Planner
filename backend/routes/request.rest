@@ -1,0 +1,61 @@
+
+POST http://localhost:4500/users/add
+Content-Type: application/json
+
+{
+    "username": "Murphious"
+}
+
+###
+
+GET http://localhost:4500/users/
+
+###
+
+DELETE http://localhost:4500/users/5e37e3e153468a29984bbabd
+
+###
+
+
+//Entries test route
+
+POST http://localhost:4500/entries/add
+Content-Type: application/json
+
+{
+    "username": "mj",
+    "task": "Travel the around world",
+    "priority": "High",
+    "date": "2020-02-03T09:39:04.743Z"
+}
+
+###
+
+GET http://localhost:4500/entries/
+
+###
+
+GET http://localhost:4500/entries/5e37f1533bafeb06a0df2a41
+
+
+###
+
+DELETE http://localhost:4500/entries/5e37f2523bafeb06a0df2a43
+
+
+###
+
+POST http://localhost:4500/entries/update/5e37f3423bafeb06a0df2a44
+Content-Type: application/json
+
+{
+    "task": "Go get some coffee at the store",
+    "priority": "Normal",
+    "date": "2020-02-03T09:39:04.743Z"
+}
+
+
+
+
+
+    

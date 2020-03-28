@@ -1,0 +1,18 @@
+{
+  "name": "daily_planner",
+  "version": "1.0.0",
+  "description": "plan your daily activities",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BHM",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
+  }
+}
