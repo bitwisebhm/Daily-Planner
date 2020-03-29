@@ -23,7 +23,8 @@ mongoose.connect('mongodb://localhost/DailyPlanner', {useNewUrlParser: true, use
 
 // Server static assets if in production
 
+var PORT = process.env.PORT || 2100;
 
-app.listen(4500, () => {
-    console.log('CONNECTED TO PORT 4500')
+app.listen( PORT, () => {
+    console.log('CONNECTED TO PORT 2100')
 });
